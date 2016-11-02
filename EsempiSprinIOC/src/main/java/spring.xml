@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!--     creazione del bean /  -->
+
+<!--    <bean id="triangolo"   class="it.alfasoft.vahid.primoApplicationContext.Triangolo"> -->
+        
+ <!--          <property name="nome" value="Equilaterale" /> --> 
+
+<!--                               <constructor-arg   index="0" value="Equilaterale"/> -->
+<!--                                <constructor-arg   index="1"  value="20"/> -->
+<!--    </bean> -->
+
+         <!--      ****************iniezione delli oggetti ***********************************  -->
+<!--                      <import resource="risorseSpring/IniezioneDegliOggetti.xml"/> -->
+  
+<!--      ***************         Esempio InnerBean e Alias  *****************-->
+<!--                 <import resource="risorseSpring/InnerBeanAliases.xml"/> -->
+
+       <!--      ***************         Esempio Inizializzaione List  *****************-->
+<!--                       <import resource="risorseSpring/InizializzazioneList.xml"/> -->
+                   <!--      ***************         Esempio Autowire *****************-->     
+<!--                 <import resource="risorseSpring/autoWire.xml"/>  -->
+
+     <!--      ***************         Esempio scope dei bean *****************-->     
+<!--                 <import resource="risorseSpring/beanScopes.xml"/>  -->
+
+   <!--      ***************         Esempio ereditarieta  *****************--> 
+<!--                     <import resource="risorseSpring/EredirarietadelleDefinizioniDelBean.xml"/> -->
+                    
+                     <!--      ***************         Esempio PlaceHolder *****************--> 
+<!--                     <import resource="risorseSpring/BeanFactoryPostProcessor.xml"/> -->
+                    
+                         <!--      ***************         Esempio Interfaccia  *****************--> 
+                    <import resource="risorseSpring/ScrivereInterFaccia.xml"/>
+                    
+                    
+                    
+                    
+                </beans>
